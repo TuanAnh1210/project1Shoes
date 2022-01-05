@@ -1,0 +1,77 @@
+/* mobile */
+
+@media (max-width: 46.1875em) {
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav > li > a {
+        color: white;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        width: 100%;
+        text-align: center;
+        background-color:#333
+        
+        
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header {
+         overflow: hidden;
+    }
+
+    #header #search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #slider .text-content {
+        bottom: 2px;
+        font-size: 16px;
+    }
+
+    
+
+    #slider .text-heading {
+        font-size: 20px;
+         letter-spacing: 2px;
+    }
+
+    #content .member-item {
+        float: none;
+    }
+
+    #content .member-list {
+        display: block;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    .places-TA,
+    .places-item,
+    .col-half,
+    .s-full-width,
+    .tickets-list {
+        width: 100%;
+    }
+    .map-section img {
+        padding-top: 28px;
+    }
+       
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .places-TA,
+    .tickets-list {
+        width: 100%;
+    }
+}
