@@ -137,7 +137,7 @@ html {
     right: 0;
     left: 0;
     font-weight: 500;
-  
+    clip-path: circle(81.2% at 50% 0);
 }
 
 .slider-two {
@@ -149,7 +149,7 @@ html {
     right: 0;
     left: 0;
     font-weight: 500;
-    
+    clip-path: circle(81.2% at 50% 0);
 }
 
 .slider-two .text-content {
@@ -164,7 +164,7 @@ html {
     top: 0;
     right: 0;
     left: 0;
-    font-weight: 500;
+    font-weight: 500;clip-path: circle(81.2% at 50% 0);
 }
 
 .slider .text-content {
